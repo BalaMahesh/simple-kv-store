@@ -1,0 +1,6 @@
+port: 13000
+peers: 'localhost:13001','localhost:13002'
+name: localhost:13000
+replicationFactor: 1
+replicateMinIntervalInSecs: 10
+repBatchMax: 10
